@@ -10,7 +10,7 @@ No hay tal cosa, pero...
 
 #### Algunos links
 
-* [Metodología Zettelkasten — Javier Martin | Double Bass](https://javiermartinbass.com/blog/metodologa-zettelkasten)
+* [Metodología Zettelkasten — Javier Martin / Double Bass](https://javiermartinbass.com/blog/metodologa-zettelkasten)
 
 * [Tomar notas usando el método Zettelkasten](https://tonimiquel.com/blog/tomar-notas-usando-el-metodo-zettelkasten/)
 
@@ -26,4 +26,26 @@ No hay tal cosa, pero...
 
 * [Reddit - r/Zettelkasten](https://www.reddit.com/r/Zettelkasten/)
 
-* [The Zettelkasten Method: A Beginner's Guide | Goodnotes Blog](https://www.goodnotes.com/blog/zettelkasten-method)
+* [The Zettelkasten Method: A Beginner's Guide / Goodnotes Blog](https://www.goodnotes.com/blog/zettelkasten-method)
+
+#### Videos, etc.
+
+Lista de reproducción con selección de videos en español:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=93oELVzqQFXbARSm&amp;list=PLLMCbsfRGqObKtrgU89dtaSWxMybiZqWf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Lista de reproducción con selección de videos en inglés:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=dSRsOtozm2g0brGY&amp;list=PLLMCbsfRGqObrb5MthEeC0XA-026ZeZgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Referencias 
+
+Ahrens, S. (2020). El método Zettelkasten.
+
+Kadavy, D. (2021). Digital Zettelkasten: Principles, Methods, & Examples. Kadavy, Inc.
+
+Scheper, S. (2022). Antinet Zettelkasten: A Knowledge System That Will Turn You Into a Prolific Reader, Researcher and Writer. Greenlamp, LLC.
+
+## Software 
+
+ver [Sofware para investigar en humanidades y ciencias sociales](http://software.ilcic.net)
