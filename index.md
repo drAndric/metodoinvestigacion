@@ -49,3 +49,15 @@ Scheper, S. (2022). Antinet Zettelkasten: A Knowledge System That Will Turn You 
 ## Software 
 
 ver [Sofware para investigar en humanidades y ciencias sociales](http://software.ilcic.net)
+
+
+## Recursos generales
+
+* [University Librarian](https://www.universitylibrarian.com/)
+
+* [Common Note-taking Methods](https://www.utc.edu/enrollment-management-and-student-affairs/center-for-academic-support-and-advisement/tips-for-academic-success/note-taking)
+     * Buen ejemplo de cómo algunas universidades ofrecen recursos para la vida estudiantil, incluyendo estrategias de estudio y escritura.
+     * Cada tanto la SAE de la UNC ofrece un [Taller de Estrategias de Estudio](https://www.unc.edu.ar/vida-estudiantil/taller-de-estrategias-de-estudio)
+
+* [Mastering How to Take Outline Notes Effectively](https://www.effie.pro/blog/mastering-how-to-take-outline-notes-effectively/)
+* [The Outline Note-Taking Method: A Guide to Fast, Effective, and Accurate Outlining](https://www.beforesunset.ai/post/the-outline-note-taking-method)
