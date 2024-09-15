@@ -1,12 +1,12 @@
 ---
 ---
 
-## Metodología investigación (en ciencias humanas y sociales)
+# Metodología investigación (en ciencias humanas y sociales)
 
 No hay tal cosa, pero...
 
 
-### Zetelkasten
+## Zetelkasten
 
 #### Algunos links
 
@@ -49,6 +49,24 @@ Scheper, S. (2022). Antinet Zettelkasten: A Knowledge System That Will Turn You 
 ## Software 
 
 ver [Sofware para investigar en humanidades y ciencias sociales](http://software.ilcic.net)
+
+## Gestores de referencias
+
+### Zotero
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=5ck2LsXTZ0wxOxUc&amp;list=PLnAYjzn3hPIZhCm1971ojS2JxafnO8NFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Análisis cualitativo de datos
+
+[Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S
+)
+
+### ATLAS.ti 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lFqFx8OCBlXo1lIo&amp;list=PLxDnhv04Fs1NRTg7HN8h15xp4jJHv6vyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 ## Recursos generales
