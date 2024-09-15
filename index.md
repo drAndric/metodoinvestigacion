@@ -59,8 +59,10 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 
 ## Análisis cualitativo de datos
 
-[Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S
-)
+### algunas clases que están en la web
+
+* [Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S)
+* [Análisis de contenido cualitativo - Sesión 1 - YouTube](https://youtu.be/5lTPWUraKoA?si=rmpOP_Gz0ynw-F1T)
 
 ### ATLAS.ti 
 
