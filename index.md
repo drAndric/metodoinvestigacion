@@ -64,11 +64,28 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 * [Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S)
 * [Análisis de contenido cualitativo - Sesión 1 - YouTube](https://youtu.be/5lTPWUraKoA?si=rmpOP_Gz0ynw-F1T)
 
+#### Inglés:
+
+* [Introduction to Qualitative Data Analysis Using Taguette and QualCoder - YouTube](https://youtu.be/7Q6358q6aCk?si=F0HSa8NSIjxMa-A_) 
+* [Horizontal Coding: AI-Based Qualitative Data Analysis in QualCoder, Free & Open Source - YouTube](https://youtu.be/FrQyTOTJhCc?si=QfTXaxdo3l45JZ3R)
+
 ### ATLAS.ti 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lFqFx8OCBlXo1lIo&amp;list=PLxDnhv04Fs1NRTg7HN8h15xp4jJHv6vyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### QualCoder
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2zzA8l0mAk?si=g3SgYfraokKeLcRO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wj5fY4F5Jxo?si=xfEOJEA6Bzwhzppl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Lo más parecido a un libro/manual de QualCoder es la [wiki](https://github.com/ccbogel/QualCoder/wiki) (ver las secciones/páginas en el menú de la derecha). Ver también: Brailas, A., Tragou, E., & Papachristopoulos, K. (2023). Introduction to Qualitative Data Analysis and Coding with QualCoder. _American Journal of Qualitative Research_, 7(3), 19-31. https://doi.org/10.29333/ajqr/13230
+
+* [QualCoder - Clase 09 de Julio - 2024 - YouTube](https://youtu.be/Fcqq9XaGUzY?si=R9YB7SI9pxMYjuHG)
+
+### Taguette 
+
+* [601: How to Use the Open-Source Program: Taguette - YouTube](https://youtu.be/TKVZiHmAUhY?si=YQplrNkGbhzSCGDA)
 
 
 ## Recursos generales
