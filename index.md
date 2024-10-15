@@ -73,6 +73,10 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lFqFx8OCBlXo1lIo&amp;list=PLxDnhv04Fs1NRTg7HN8h15xp4jJHv6vyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Hi9Zmaz2r8V-0QzT&amp;list=PL0-BvDR5aL1bKKuoIRgKoScJRV5i9n2ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Taller ATLAS.ti 9 Windows - YouTube](https://youtu.be/iZrrzXqSt9s?si=X0SW-ggQ-SML1dsv)
+
 ### QualCoder
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K2zzA8l0mAk?si=g3SgYfraokKeLcRO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -86,6 +90,19 @@ Lo más parecido a un libro/manual de QualCoder es la [wiki](https://github.com/
 ### Taguette 
 
 * [601: How to Use the Open-Source Program: Taguette - YouTube](https://youtu.be/TKVZiHmAUhY?si=YQplrNkGbhzSCGDA)
+
+## IA en la investigación académica
+
+Más que nada ver:
+
++ 🔥 [Aplicaciones basadas en IA | guIA](https://guia.ilcic.net/docs/chapter3/apps/
+)
+### Videos 
+
+List de reproducción:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=A9n__hZ-Y44IW5vS&amp;list=PLLMCbsfRGqOYtjUrJM3xA0VxljyUTqsd7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ## Recursos generales
