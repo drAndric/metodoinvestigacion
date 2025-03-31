@@ -57,6 +57,8 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=5ck2LsXTZ0wxOxUc&amp;list=PLnAYjzn3hPIZhCm1971ojS2JxafnO8NFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+📜 [A Zotero Self-Paced Study Guide - OER in Education](https://oer.opendeved.net/wiki/A_Zotero_Self-Paced_Study_Guide)
+
 ## Análisis cualitativo de datos
 
 ### algunas clases que están en la web
