@@ -66,10 +66,14 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 * [Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S)
 * [Análisis de contenido cualitativo - Sesión 1 - YouTube](https://youtu.be/5lTPWUraKoA?si=rmpOP_Gz0ynw-F1T)
 
-#### Inglés:
+#### Inglés, centradas en softwares:
 
 * [Introduction to Qualitative Data Analysis Using Taguette and QualCoder - YouTube](https://youtu.be/7Q6358q6aCk?si=F0HSa8NSIjxMa-A_) 
 * [Horizontal Coding: AI-Based Qualitative Data Analysis in QualCoder, Free & Open Source - YouTube](https://youtu.be/FrQyTOTJhCc?si=QfTXaxdo3l45JZ3R)
+
+#### interpretaciones de Teoría Fundamentada / Grounded Theory
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/InpBIqmPdXM?si=rxBVmisoIE8Dkimm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### ATLAS.ti 
 
