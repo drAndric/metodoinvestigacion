@@ -66,6 +66,10 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 * [Análisis de datos: Método cualitativo - YouTube](https://youtu.be/Key4-LZ7UiA?si=bAi1DNpZBCCnop3S)
 * [Análisis de contenido cualitativo - Sesión 1 - YouTube](https://youtu.be/5lTPWUraKoA?si=rmpOP_Gz0ynw-F1T)
 
+### Inglés
+
+* [UvA - Qualitative Methods](https://www.youtube.com/playlist?list=PLyLpEs0x9BnlSknrmahoMrr7V1563CGX9)
+
 #### Inglés, centradas en softwares:
 
 * [Introduction to Qualitative Data Analysis Using Taguette and QualCoder - YouTube](https://youtu.be/7Q6358q6aCk?si=F0HSa8NSIjxMa-A_) 
