@@ -54,8 +54,13 @@ ver [Sofware para investigar en humanidades y ciencias sociales](http://software
 
 ### Zotero
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=5ck2LsXTZ0wxOxUc&amp;list=PLnAYjzn3hPIZhCm1971ojS2JxafnO8NFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Para empezar:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nTk_9DgiUuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+La siguiente es una lista de reproducción, así que ver qué más tiene "adentro":
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=5ck2LsXTZ0wxOxUc&amp;list=PLnAYjzn3hPIZhCm1971ojS2JxafnO8NFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 📜 [A Zotero Self-Paced Study Guide - OER in Education](https://oer.opendeved.net/wiki/A_Zotero_Self-Paced_Study_Guide)
 
@@ -109,7 +114,7 @@ Más que nada ver:
 )
 ### Videos 
 
-List de reproducción:
+Lista de reproducción:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=A9n__hZ-Y44IW5vS&amp;list=PLLMCbsfRGqOYtjUrJM3xA0VxljyUTqsd7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
