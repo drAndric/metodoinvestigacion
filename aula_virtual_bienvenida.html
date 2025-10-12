@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📤 Egresar/ Taller de apoyo metodológico transdisciplinar para egresantes de la FFyH </title>
+    <style>
+        /* Variables de color académico */
+        :root {
+            --color-primary: #ff0000;
+            --color-secondary: #8b5a2b;
+            --color-accent: #d4ac73;
+            --color-bg: #f8f9fa;
+            --color-text: #2c3e50;
+            --color-muted: #6c757d;
+            --color-success: #28a745;
+            --shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--color-text);
+            background-color: var(--color-bg);
+        }
+
+        /* Header Moodle */
+        .moodle-header {
+            background: linear-gradient(135deg, var(--color-primary) 0%, #b40000 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--color-primary);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            background: white;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .breadcrumb-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            font-size: 0.9rem;
+            color: var(--color-muted);
+        }
+
+        /* Container principal */
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        /* Título del curso */
+        .course-title {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border-left: 5px solid var(--color-secondary);
+            grid-column: 1 / -1;
+        }
+
+        .course-title h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-primary);
+        }
+
+        .course-subtitle {
+            font-size: 1.1rem;
+            color: var(--color-muted);
+            margin-bottom: 1rem;
+        }
+
+        .course-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: var(--color-accent);
+            color: var(--color-text);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Contenido principal */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* Componente de bienvenida */
+        .welcome-component {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .component-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .component-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .video-icon { background: #dc3545; }
+        .forum-icon { background: var(--color-success); }
+        .guide-icon { background: #17a2b8; }
+        .quiz-icon { background: #ffc107; }
+        .map-icon { background: #6f42c1; }
+
+        .component-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--color-primary);
+            margin: 0;
+        }
+
+        .component-description {
+            color: var(--color-muted);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Video de bienvenida */
+        .video-placeholder {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .video-placeholder i {
+            font-size: 3rem;
+            color: var(--color-muted);
+            margin-bottom: 1rem;
+        }
+
+        .video-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .video-detail {
+            text-align: center;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .video-detail strong {
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Foro */
+        .forum-preview {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .forum-stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--color-muted);
+        }
+
+        /* Botones de acción */
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1e3d72;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: var(--color-secondary);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #704021;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background: white;
+            color: var(--color-primary);
+            border: 2px solid var(--color-primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .widget-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .quick-links {
+            list-style: none;
+        }
+
+        .quick-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .quick-links a {
+            color: var(--color-text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.5rem;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .quick-links a:hover {
+            background-color: #f8f9fa;
+        }
+
+        .quick-links .icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        /* Mapa del curso */
+        .course-map {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .module-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        .module-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+            border-color: var(--color-primary);
+        }
+
+        .module-number {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+            font-weight: bold;
+        }
+
+        .module-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main-container {
+                grid-template-columns: 1fr;
+                padding: 0 1rem;
+            }
+
+            .course-title h1 {
+                font-size: 1.8rem;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+
+            .course-tags {
+                justify-content: center;
+            }
+        }
+
+        /* Animaciones */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .welcome-component {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .welcome-component:nth-child(2) { animation-delay: 0.1s; }
+        .welcome-component:nth-child(3) { animation-delay: 0.2s; }
+        .welcome-component:nth-child(4) { animation-delay: 0.3s; }
+        .welcome-component:nth-child(5) { animation-delay: 0.4s; }
+        .welcome-component:nth-child(6) { animation-delay: 0.5s; }
+    </style>
+</head>
+<body>
+    <!-- Header Moodle -->
+    <header class="moodle-header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">UNC FFyH</div>
+                <div>
+                    <h2>Facultad de Filosofía y Humanidades</h2>
+                    <small>Plataforma de Aulas Virtuales</small>
+                </div>
+            </div>
+            <nav>
+                <span>Bienvenide, egresante</span>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-content">
+            Inicio > Mis cursos > 📤 Egresar/ Taller de apoyo metodológico transdisciplinar para egresantes de la FFyH
+        </div>
+    </div>
+
+    <!-- Container principal -->
+    <div class="main-container">
+        <!-- Título del curso -->
+        <section class="course-title">
+            <h1>📤 Egresar/ Taller de apoyo metodológico transdisciplinar para egresantes de la FFyH</h1>
+            <p class="course-subtitle">Un recorrido integral por las competencias investigativas para la elaboración de tesis en educación a distancia</p>
+            <div class="course-tags">
+                <span class="tag">Letras</span>
+                <span class="tag">Filosofía</span>
+                <span class="tag">Antropología</span>
+                <span class="tag">Geografía</span>
+                <span class="tag">Historia</span>
+                <span class="tag">Ciencias de la Educación</span>
+                <span class="tag">Bibliotecología</span>
+                <span class="tag">Archivología</span>
+            </div>
+        </section>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <!-- 1. Video de Bienvenida -->
+            <article class="welcome-component">
+                <div class="component-header">
+                    <div class="component-icon video-icon">📹</div>
+                    <h2 class="component-title">Video de Bienvenida</h2>
+                </div>
+                <p class="component-description">
+                    Mensaje introductorio del equipo docente presentando la filosofía del curso, expectativas y metodología de trabajo colaborativo.
+                </p>
+                <div class="video-placeholder">
+                    <i>▶</i>
+                    <p>Video de Bienvenida del Equipo Docente</p>
+                    <small>Duración: 15 minutos</small>
+                </div>
+                <div class="video-info">
+                    <div class="video-detail">
+                        <strong>Docente responsale</strong>
+                        <span>Coordinadora del Curso<br>Especialista en Metodología</span>
+                    </div>
+                    <div class="video-detail">
+                        <strong>Tutora </strong>
+                        <span>Tutor Virtual<br>Escritura Académica</span>
+                    </div>
+                    <div class="video-detail">
+                        <strong>Paulo Freire</strong>
+                        <span>Asesor Disciplinar <br>Pedagogía Crítica</span>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary">▶ Reproducir Video</button>
+                    <button class="btn btn-outline">📄 Descargar Transcripción</button>
+                </div>
+            </article>
+ <!-- 4. Diagnóstico Inicial -->
+            <article class="welcome-component">
+                <div class="component-header">
+                    <div class="component-icon quiz-icon">📊</div>
+                    <h2 class="component-title">Diagnóstico Inicial</h2>
+                </div>
+                <p class="component-description">
+                    Cuestionario sobre experiencias previas en investigación, competencias digitales y expectativas personales para personalizar tu experiencia de aprendizaje.
+                </p>
+                <div style="background: #fff3cd; padding: 1.5rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #ffc107;">
+                    <h4 style="color: #856404; margin-bottom: 1rem;">⏱ Información del Cuestionario</h4>
+                    <ul style="color: #856404; margin-left: 1rem;">
+                        <li>Tiempo estimado: 15-20 minutos</li>
+                        <li>25 preguntas de opción múltiple</li>
+                        <li>Resultados inmediatos con recomendaciones</li>
+                        <li>Información confidencial para uso pedagógico</li>
+                    </ul>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary">🔍 Iniciar Diagnóstico</button>
+                    <button class="btn btn-outline">📋 Ver Ejemplo de Preguntas</button>
+                </div>
+            </article>
+            <!-- 2. Foro BarCafé de Egrestantes -->
+            <article class="welcome-component">
+                <div class="component-header">
+                    <div class="component-icon forum-icon">💬</div>
+                    <h2 class="component-title">Foro "BarCafé de Egresantes"</h2>
+                </div>
+                <p class="component-description">
+                    Espacio informal de presentación personal, compartir expectativas y establecer vínculos con colegas investigadores de diferentes disciplinas.
+                </p>
+                <div class="forum-preview">
+                    <p><strong>Última actividad:</strong> María S. se presentó hace 2 horas</p>
+                    <div class="forum-stats">
+                        <span>📝 15 participaciones</span>
+                        <span>👥 8 participantes</span>
+                        <span>🕒 Actualizado hoy</span>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary">💬 Participar en Foro</button>
+                    <button class="btn btn-secondary">👀 Ver Presentaciones</button>
+                </div>
+            </article>
+
+            <!-- 3. Guía Didáctica Interactiva -->
+            <article class="welcome-component">
+                <div class="component-header">
+                    <div class="component-icon guide-icon">📋</div>
+                    <h2 class="component-title">Guía Didáctica Interactiva (H5P)</h2>
+                </div>
+                <p class="component-description">
+                    Navegación simulada por el curso, calendario académico interactivo, criterios de evaluación y cronograma de actividades.
+                </p>
+                <div style="background: #e3f2fd; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+                    <h4 style="color: #1976d2; margin-bottom: 1rem;">🗓 Información del Curso</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <div><strong>Duración:</strong> 12 semanas</div>
+                        <div><strong>Modalidad:</strong> Virtual con encuentros sincrónicos</div>
+                        <div><strong>Carga horaria:</strong> 120 horas académicas</div>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary">🎯 Explorar Guía Interactiva</button>
+                    <button class="btn btn-outline">📅 Ver Calendario Completo</button>
+                </div>
+            </article>
+
+           
+
+            <!-- 5. Mapa Interactivo del Curso -->
+            <article class="welcome-component">
+                <div class="component-header">
+                    <div class="component-icon map-icon">🗺</div>
+                    <h2 class="component-title">Mapa Interactivo del Curso</h2>
+                </div>
+                <p class="component-description">
+                    Visualización de la arquitectura completa del curso con hipervínculos a cada módulo, mostrando conexiones y rutas de aprendizaje.
+                </p>
+                <div class="course-map">
+                    <div class="module-card">
+                        <div class="module-number">1</div>
+                        <div class="module-title">Punto de partida: cómo empezar a investigar en la FFyH</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">2</div>
+                        <div class="module-title">Construcción del problema</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">3</div>
+                        <div class="module-title">La lógica interna: preguntas, objetivos e hipótesis</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">4</div>
+                        <div class="module-title">El diseño metodológico</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">5</div>
+                        <div class="module-title">Escrituras</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">6</div>
+                        <div class="module-title">La IA y otras herramientas para investigar</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">7</div>
+                        <div class="module-title">Taller de exposición</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">8</div>
+                        <div class="module-title">Entre la tesis y el resto</div>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary">🎯 Explorar Mapa Detallado</button>
+                    <button class="btn btn-secondary">📋 Descargar Infografía</button>
+                </div>
+            </article>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Accesos Rápidos -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">🔗 Accesos Rápidos</h3>
+                <ul class="quick-links">
+                    <li>
+                        <a href="#">
+                            <span class="icon" style="background: #28a745;">📚</span>
+                            Biblioteca Virtual
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon" style="background: #17a2b8;">💬</span>
+                            Centro de Comunicación
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon" style="background: #ffc107;">📋</span>
+                            Mis Calificaciones
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon" style="background: #6f42c1;">🎯</span>
+                            Herramientas Digitales
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon" style="background: #dc3545;">📱</span>
+                            Soporte Técnico
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Calendario -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">📅 Próximas Actividades</h3>
+                <div style="font-size: 0.9rem; line-height: 1.4;">
+                    <div style="padding: 0.5rem; background: #f8f9fa; border-radius: 6px; margin-bottom: 0.5rem;">
+                        <strong>Hoy</strong><br>
+                        <span style="color: var(--color-muted);">Completar diagnóstico inicial</span>
+                    </div>
+                    <div style="padding: 0.5rem; background: #e3f2fd; border-radius: 6px; margin-bottom: 0.5rem;">
+                        <strong>15 Oct</strong><br>
+                        <span style="color: var(--color-muted);">Webconferencia inaugural</span>
+                    </div>
+                    <div style="padding: 0.5rem; background: #fff3cd; border-radius: 6px;">
+                        <strong>20 Oct</strong><br>
+                        <span style="color: var(--color-muted);">Inicio Módulo 1</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progreso -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">📈 Mi Progreso</h3>
+                <div style="margin-bottom: 1rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span style="font-size: 0.9rem;">Actividades completadas</span>
+                        <span style="font-size: 0.9rem; font-weight: bold;">0/30</span>
+                    </div>
+                    <div style="background: #e9ecef; height: 8px; border-radius: 4px;">
+                        <div style="background: var(--color-primary); height: 100%; width: 0%; border-radius: 4px; transition: width 0.3s;"></div>
+                    </div>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--color-muted); text-align: center;">
+                    ¡Comienza completando el diagnóstico inicial!
+                </p>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        // Simulación de interactividad
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animación de tarjetas del mapa
+            const moduleCards = document.querySelectorAll('.module-card');
+            moduleCards.forEach((card, index) => {
+                card.addEventListener('click', function() {
+                    alert(`Navegando al Módulo ${index + 1}: ${this.querySelector('.module-title').textContent}`);
+                });
+            });
+
+            // Botones interactivos
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const action = this.textContent.trim();
+                    console.log(`Acción ejecutada: ${action}`);
+
+                    // Feedback visual
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            });
+
+            // Enlaces rápidos
+            const quickLinks = document.querySelectorAll('.quick-links a');
+            quickLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const destination = this.textContent.trim();
+                    console.log(`Navegando a: ${destination}`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
