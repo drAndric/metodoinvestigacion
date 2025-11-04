@@ -64,6 +64,9 @@ La siguiente es una lista de reproducción, así que ver qué más tiene "adentr
 
 📜 [A Zotero Self-Paced Study Guide - OER in Education](https://oer.opendeved.net/wiki/A_Zotero_Self-Paced_Study_Guide)
 
+[https://guides.lib.berkeley.edu/zotero](https://guides.lib.berkeley.edu/zotero)
+
+
 ## Análisis cualitativo de datos
 
 ### algunas clases que están en la web
@@ -110,8 +113,8 @@ Lo más parecido a un libro/manual de QualCoder es la [wiki](https://github.com/
 
 Más que nada ver:
 
-+ 🔥 [Aplicaciones basadas en IA | guIA](https://guia.ilcic.net/docs/chapter3/apps/
-)
++ 🔥 [Aplicaciones basadas en IA | guIA](https://guia.ilcic.net/docs/chapter3/apps/)
+  
 ### Videos 
 
 Lista de reproducción:
